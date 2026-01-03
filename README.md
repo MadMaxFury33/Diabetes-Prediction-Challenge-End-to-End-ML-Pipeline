@@ -288,3 +288,10 @@ Max Probability: 0.9824862480163574
 
 
 ---
+
+
+- My final model predicts with probabilities from 0.03 → 0.98, which shows:
+
+- ✔️ Confident high-risk and low-risk predictions
+- ✔️ Strong ROC-AUC separation
+- ✔️ Correct drift handling + engineered health signals
