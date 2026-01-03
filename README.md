@@ -69,20 +69,6 @@ valid_pred = model.predict(X_valid)
 ```
 ---
 
----
-
-
----
-
-
-### 📉 Limitations Identified
-
-- No drift handling
-- No true feature inspection
-- No class imbalance correction
-- Overreliance on default transformations
-
-This motivated Stage 2.
 
 ## 📊 Exploratory Feature Distributions (Stage 1 Analysis)
 
