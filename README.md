@@ -75,23 +75,15 @@ valid_pred = model.predict(X_valid)
 Before modelling, I explored how key numerical features differ between **diabetes (1)** and **non-diabetes (0)** groups.  
 These histograms helped identify *high-signal* predictors and motivated feature engineering in later stages.
 
-### **Age vs Diabetes Status**
-![Age Distribution](images/age_distribution.png)
+### ** Distribution 1 **
+![Age Distribution](distribution1.png)
 
-### **BMI vs Diabetes Status**
-![BMI Distribution](images/bmi_distribution.png)
+### ** Distribution 2 **
+![BMI Distribution](distribution2.png)
 
-### **Systolic Blood Pressure vs Diabetes Status**
-![Systolic BP Distribution](images/systolic_bp_distribution.png)
+### ** Distribution 3 **
+![Systolic BP Distribution](distribution3.png)
 
-### **Waist-to-Hip Ratio vs Diabetes Status**
-![WHR Distribution](images/whr_distribution.png)
-
-### **Triglycerides vs Diabetes Status**
-![Triglycerides Distribution](images/triglycerides_distribution.png)
-
-### **Physical Activity Minutes per Week vs Diabetes Status**
-![Physical Activity Distribution](images/physical_activity_distribution.png)
 
 ---
 
