@@ -71,6 +71,19 @@ valid_pred = model.predict(X_valid)
 
 ---
 
+
+---
+
+
+### 📉 Limitations Identified
+
+- No drift handling
+- No true feature inspection
+- No class imbalance correction
+- Overreliance on default transformations
+
+This motivated Stage 2.
+
 ## 📊 Exploratory Feature Distributions (Stage 1 Analysis)
 
 Before modelling, I explored how key numerical features differ between **diabetes (1)** and **non-diabetes (0)** groups.  
@@ -119,17 +132,6 @@ These visual patterns revealed:
 
 This EDA stage helped shape all improvements in Stages 2 and 3.
 
----
-
-
-### 📉 Limitations Identified
-
-- No drift handling
-- No true feature inspection
-- No class imbalance correction
-- Overreliance on default transformations
-
-This motivated Stage 2.
 
 ---
 ## 🟩 Stage 2 — Exploratory Data Analysis, Drift Detection & Feature Pruning
